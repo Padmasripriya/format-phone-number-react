@@ -4,9 +4,8 @@ import { useState } from 'react';
 import { PhoneNumberFormat } from './PhoneNumberFormat'
 
 function App() {
-
   return(
-    <div>
+    <div className='App'>
       <PhoneNumberFormat />
     </div>
   );
