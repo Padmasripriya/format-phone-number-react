@@ -10,7 +10,7 @@ export function PhoneNumberFormat() {
     };
 
     return(
-        <input onChange={ (e) => phoneNumberInput(e) } type="tel" placeholder="enter the phone number" value={inputValue} />
+       <input data-testid="phone-input" onChange={ (e) => phoneNumberInput(e) } type="tel" placeholder="enter the phone number" value={inputValue} />   
     );
 }
 
